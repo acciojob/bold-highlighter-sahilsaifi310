@@ -1,5 +1,5 @@
 function highlight() {
-     let boldWords = document.querySelectorAll('strong');
+     let boldWords = document.querySelectorAll('b');
     
    
     boldWords.forEach(function(word) {
@@ -11,7 +11,7 @@ function highlight() {
 
 
 function return_normal() {
-      let boldWords = document.querySelectorAll('strong');
+      let boldWords = document.querySelectorAll('b');
     
    
     boldWords.forEach(function(word) {
